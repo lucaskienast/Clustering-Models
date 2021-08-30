@@ -9,11 +9,11 @@ Overview of theory and common techniques for clustering problems, split into:
 - Fuzzy (Soft)
 
 ## Installation
-Use git clone to get a copy of this repository.
-
+Use `git clone` to get a copy of this repository.
+```
 $ git clone https://github.com/lucaskienast/Clustering-Models.git
 $ cd Clustering-Models
-
+```
 ## Connectivity-Based Clustering (Hierarchical)
 Hierarchical Clustering is a distance-metric-based method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
 
