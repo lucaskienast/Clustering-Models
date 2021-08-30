@@ -1,7 +1,5 @@
 # Clustering Models (Unsupervised Learning)
-Clustering involves automatically discovering natural grouping in data. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space. A cluster is often an area of density in the feature space where examples from the domain (observations or rows of data) are closer to the cluster than other clusters. The cluster may have a center (the centroid) that is a sample or a point feature space and may have a boundary or extent. Clustering can also be useful as a type of feature engineering, where existing and new examples can be mapped and labeled as belonging to one of the identified clusters in the data. Many algorithms use similarity or distance measures between examples in the feature space in an effort to discover dense regions of observations. As such, it is often good practice to scale data prior to using clustering algorithms. Each algorithm offers a different approach to the challenge of discovering natural groups in data. There is no best clustering algorithm, and no easy way to find the best algorithm for your data without using controlled experiments.
-
-The different types of clustering methods can be split into:
+Overview of theory and common techniques for clustering problems, split into:
 
 - Connectivity-Based (Hierarchical)
 - Centroid-Based
@@ -9,6 +7,12 @@ The different types of clustering methods can be split into:
 - Density-Based
 - Constraint-Based (Semi-Supervised)
 - Fuzzy (Soft)
+
+## Installation
+Use git clone to get a copy of this repository.
+
+$ git clone https://github.com/lucaskienast/Clustering-Models.git
+$ cd Clustering-Models
 
 ## Connectivity-Based Clustering (Hierarchical)
 Hierarchical Clustering is a distance-metric-based method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
