@@ -48,6 +48,8 @@ McGregor, M. (2020) 8 Clustering Algorithms in Machine Learning that All Data Sc
 
 Prasad, S. (2021) Different Types of Clustering Methods and Applications. Available at: https://www.analytixlabs.co.in/blog/types-of-clustering-algorithms/ (Accessed: 30 August 2021)
 
+Rajan, S. (2020) Overview of Clustering Algorithms. Available at: https://towardsdatascience.com/overview-of-clustering-algorithms-27e979e3724d (Accessed: 30 August 2021)
+
 Scikit-Learn (2021) Clustering. Available at: https://scikit-learn.org/stable/modules/clustering.html#affinity-propagation (Accessed: 30 August 2021)
 
 Seif, G. (2018) The 5 Clustering Algorithms Data Scientists Need to Know. Available at: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68 (Accessed: 30 August 2021)
