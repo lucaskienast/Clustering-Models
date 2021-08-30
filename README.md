@@ -42,6 +42,8 @@ Kassambara, A. (2019) Hierarchical Clustering in R: The Essentials. Available at
 
 Kaushik, S. (2016) An Introduction to Clustering and different methods of clustering. Available at: https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/ (Accessed: 30 August 2021)
 
+Keerthz (2021) What, why and how of Spectral Clustering. Available at: https://www.analyticsvidhya.com/blog/2021/05/what-why-and-how-of-spectral-clustering/ (Accessed: 30 August 2021)
+
 Maklin, C. (2019) Affinity Propagation Algorithm Explained. Available at: https://towardsdatascience.com/unsupervised-machine-learning-affinity-propagation-algorithm-explained-d1fef85f22c8 (Accessed: 30 August 2021)
 
 McGregor, M. (2020) 8 Clustering Algorithms in Machine Learning that All Data Scientists Should Know. Available at: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/ (Accessed: 30 August 2021)
