@@ -54,4 +54,6 @@ Seif, G. (2018) The 5 Clustering Algorithms Data Scientists Need to Know. Availa
 
 Vemula, H. (2019) How Affinity Propagation works. Available at: https://towardsdatascience.com/math-and-intuition-behind-affinity-propagation-4ec5feae5b23 (Accessed: 30 August 2021)
 
+Yildirim, S. (2020) DBSCAN Clustering - Explained. Available at: https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556 (Accessed: 30 August 2021)
+
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
