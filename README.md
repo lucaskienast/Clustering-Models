@@ -7,7 +7,7 @@ The different types of clustering methods can be split into:
 - Centroid-Based
 - Distribution-Based
 - Density-Based
-- Fuzzy
+- Fuzzy (Soft)
 
 ## Connectivity-Based Clustering (Hierarchical)
 Hierarchical Clustering is a distance-metric-based method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
