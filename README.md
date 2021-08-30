@@ -64,6 +64,8 @@ Sinclair, C. (2019) Clustering Using OPTICS. Available at: https://towardsdatasc
 
 Singh, A. (2019) Build Better and Accurate Clusters with Gaussian Mixture Models. Available at: https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/ (Accessed: 30 August 2021)
 
+Thompson, J. (2019) Choosing the Right Clustering Algorithm for your Dataset. Available at: https://www.kdnuggets.com/2019/10/right-clustering-algorithm.html (Accessed: 30 August 2021)
+
 Vemula, H. (2019) How Affinity Propagation works. Available at: https://towardsdatascience.com/math-and-intuition-behind-affinity-propagation-4ec5feae5b23 (Accessed: 30 August 2021)
 
 Yildirim, S. (2020) DBSCAN Clustering - Explained. Available at: https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556 (Accessed: 30 August 2021)
