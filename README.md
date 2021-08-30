@@ -7,6 +7,7 @@ Overview of theory and common techniques for clustering problems, split into:
 - Density-Based
 - Constraint-Based (Semi-Supervised)
 - Fuzzy (Soft)
+- Cluster Performance
 
 ## Installation
 Use `git clone` to get a copy of this repository.
@@ -127,6 +128,24 @@ Cons:
 - Affected by noise and outliers
 - Slow algorithm
 - Cannot be scaled
+
+## Cluster Performance
+Evaluating the performance of a clustering algorithm is not as trivial as counting the number of errors or the precision and recall of a supervised classification algorithm. In particular any evaluation metric should not take the absolute values of the cluster labels into account but rather if this clustering define separations of the data similar to some ground truth set of classes or satisfying some assumption such that members belong to the same class are more similar than members of different classes according to some similarity metric. Methods include:
+
+Ground truth known:
+
+- Rand index
+- Mutual information based scores
+- Homogeneity, completeness and V-measure
+- Fowlkes-Mallows scores 
+- Contingency matrix 
+- Pair confusion matrix 
+
+Ground truth unkown:
+
+- Silhouette coefficient
+- Calinski-Harabasz index / Variance Ratio Criterion 
+- Davies-Bouldin index 
 
 ## References
 
