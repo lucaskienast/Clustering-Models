@@ -3,10 +3,10 @@ It involves automatically discovering natural grouping in data. Unlike supervise
 
 The different types of clustering methods can be split into:
 
-- Hierarchical
-- Partitioning
+- Connectivity-Based (Hierarchical)
+- Centroid-Based
 - Distribution-Based
-- Density-Based (Model-Based)
+- Density-Based
 - Fuzzy
 
 ## Connectivity-Based Clustering (Hierarchical)
@@ -18,10 +18,10 @@ This approach of hierarchical clustering follows a top-down approach where we co
 ### Agglomerative Approach
 Agglomerative is quite the contrary to Divisive, where all the “N” data points are considered to be a single member of “N” clusters that the data is comprised into. We iteratively combine these numerous “N” clusters to fewer number of clusters, let’s say “k” clusters and hence assign the data points to each of these clusters accordingly. This approach is a bottom-up one, and also uses a termination logic in combining the clusters.
 
-## Centroid-Based Clustering (Partitioning)
+## Centroid-Based Clustering
 Centroid based clustering is considered as one of the most simplest clustering algorithms, yet the most effective way of creating clusters and assigning data points to it. The intuition behind centroid based clustering is that a cluster is characterized and represented by a central vector and data points that are in close proximity to these vectors are assigned to the respective clusters. These groups of clustering methods iteratively measure the distance between the clusters and the characteristic centroids using various distance metrics. These are either of Euclidian distance, Manhattan Distance or Minkowski Distance. The major setback here is that we should either intuitively or scientifically (Elbow Method) define the number of clusters, “k”, to begin the iteration of any clustering machine learning algorithm to start assigning the data points. Despite the flaws, Centroid based clustering has proven it’s worth over Hierarchical clustering when working with large datasets.
 
-## Density-Based Clustering (Model-Based)
+## Density-Based Clustering
 Density-based clustering methods take density into consideration instead of distances. Clusters are considered as the most dense region in a data space, which is separated by regions of lower object density and it is defined as a maximal-set of connected points. When performing most of the clustering, we take two major assumptions, one, the data is devoid of any noise and two, the shape of the cluster so formed is purely geometrical (circular or elliptical). The fact is, data always has some extent of inconsistency (noise) which cannot be ignored. Added to that, we must not limit ourselves to a fixed attribute shape, it is desirable to have arbitrary shapes so as to not to ignore any data points. These are the areas where density based algorithms have proven their worth! Density-based algorithms can get us clusters with arbitrary shapes, clusters without any limitation in cluster sizes, clusters that contain the maximum level of homogeneity by ensuring the same levels of density within it, and also these clusters are inclusive of outliers or the noisy data.
 
 ## Distribution-Based Clustering
@@ -35,6 +35,8 @@ The general idea about clustering revolves around assigning data points to mutua
 Brownlee, J. (2020) 10 Clustering Algorithms With Python. Available at: https://machinelearningmastery.com/clustering-algorithms-with-python/ (Accessed: 30 August 2021)
 
 Iliassich, L. (2016) Clustering Algorithms: From Start To State Of The Art. Available at: https://www.toptal.com/machine-learning/clustering-algorithms (Accessed: 30 August 2021)
+
+Kaushik, S. (2016) An Introduction to Clustering and different methods of clustering. Available at: https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/ (Accessed: 30 August 2021)
 
 Maklin, C. (2019) Affinity Propagation Algorithm Explained. Available at: https://towardsdatascience.com/unsupervised-machine-learning-affinity-propagation-algorithm-explained-d1fef85f22c8 (Accessed: 30 August 2021)
 
