@@ -2,7 +2,7 @@
 Overview of theory and common techniques for clustering problems, split into:
 
 - Connectivity-Based (Hierarchical)
-- Centroid-Based
+- Centroid-Based (Partitioning)
 - Distribution-Based
 - Density-Based
 - Constraint-Based (Semi-Supervised)
