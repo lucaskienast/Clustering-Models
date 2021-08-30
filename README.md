@@ -54,6 +54,8 @@ Scikit-Learn (2021) Clustering. Available at: https://scikit-learn.org/stable/mo
 
 Seif, G. (2018) The 5 Clustering Algorithms Data Scientists Need to Know. Available at: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68 (Accessed: 30 August 2021)
 
+Sinclair, C. (2019) Clustering Using OPTICS. Available at: https://towardsdatascience.com/clustering-using-optics-cac1d10ed7a7 (Accessed: 30 August 2021)
+
 Vemula, H. (2019) How Affinity Propagation works. Available at: https://towardsdatascience.com/math-and-intuition-behind-affinity-propagation-4ec5feae5b23 (Accessed: 30 August 2021)
 
 Yildirim, S. (2020) DBSCAN Clustering - Explained. Available at: https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556 (Accessed: 30 August 2021)
