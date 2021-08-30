@@ -36,6 +36,8 @@ Brownlee, J. (2020) 10 Clustering Algorithms With Python. Available at: https://
 
 Iliassich, L. (2016) Clustering Algorithms: From Start To State Of The Art. Available at: https://www.toptal.com/machine-learning/clustering-algorithms (Accessed: 30 August 2021)
 
+Kassambara, A. (2019) Hierarchical Clustering in R: The Essentials. Available at: https://www.datanovia.com/en/lessons/agglomerative-hierarchical-clustering/ (Accessed: 30 August 2021)
+
 Kaushik, S. (2016) An Introduction to Clustering and different methods of clustering. Available at: https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/ (Accessed: 30 August 2021)
 
 Maklin, C. (2019) Affinity Propagation Algorithm Explained. Available at: https://towardsdatascience.com/unsupervised-machine-learning-affinity-propagation-algorithm-explained-d1fef85f22c8 (Accessed: 30 August 2021)
