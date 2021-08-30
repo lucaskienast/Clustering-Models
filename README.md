@@ -34,6 +34,8 @@ The general idea about clustering revolves around assigning data points to mutua
 
 Brownlee, J. (2020) 10 Clustering Algorithms With Python. Available at: https://machinelearningmastery.com/clustering-algorithms-with-python/ (Accessed: 30 August 2021)
 
+Garbade, M. (2018) Understanding K-Means Clustering in Machine Learning. Available at: https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1 (Accessed: 30 August 2021)
+
 Gupta, A. (2021) Balanced Iterative Reducing and Clustering using Hierarchies (BIRCH) Algorithm in Machine Learning. Available at: https://medium.com/geekculture/balanced-iterative-reducing-and-clustering-using-hierarchies-birch-1428bb06bb38 (Accessed: 30 August 2021)
 
 Iliassich, L. (2016) Clustering Algorithms: From Start To State Of The Art. Available at: https://www.toptal.com/machine-learning/clustering-algorithms (Accessed: 30 August 2021)
