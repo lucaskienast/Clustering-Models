@@ -7,26 +7,122 @@ The different types of clustering methods can be split into:
 - Centroid-Based
 - Distribution-Based
 - Density-Based
-- Constraint-Based (Supervised)
+- Constraint-Based (Semi-Supervised)
 - Fuzzy (Soft)
 
 ## Connectivity-Based Clustering (Hierarchical)
 Hierarchical Clustering is a distance-metric-based method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
 
-## Centroid-Based Clustering
+Usage:
+
+You can use hierarchical clustering if your data is hierarchical. It is also good to use when your dataset is randomized. You can use hierarchical clustering to classify elements — such as animals, products, research topic, etc. Unlike partition-based algorithms, a hierarchy-based algorithm doesn’t need a fixed number of clusters. The algorithms will produce a visual representation of the resultant clusters for better interpretation and understanding.
+
+Pros:
+
+- Easy to implement
+- Number of clusters need not be specified a priori
+- Dendrograms are easy to interpret
+
+Cons:
+
+- Cluster assignment is strict and cannot be undone
+- High time complexity
+- Cannot work for a larger dataset
+
+## Centroid-Based Clustering (Partitioning)
 Centroid based clustering is considered as one of the most simplest clustering algorithms, yet the most effective way of creating clusters and assigning data points to it. The intuition behind centroid based clustering is that a cluster is characterized and represented by a central vector and data points that are in close proximity to these vectors are assigned to the respective clusters. These groups of clustering methods iteratively measure the distance between the clusters and the characteristic centroids using various distance metrics. These are either of Euclidian distance, Manhattan Distance or Minkowski Distance. The major setback here is that we should either intuitively or scientifically (Elbow Method) define the number of clusters, “k”, to begin the iteration of any clustering machine learning algorithm to start assigning the data points. Despite the flaws, Centroid based clustering has proven it’s worth over Hierarchical clustering when working with large datasets.
 
+Usage:
+
+The partition-based clustering algorithms are best used with categorical data — for example, grouping the data based on gender, age group, or education level. Moreover, most partition-based algorithms are simple, fast, and highly scalable. The down-side to these algorithms is that their performance depends on the initial number of centroids and the outliers in a dataset.
+
+Pros:
+
+- Easy to implement
+- Fast processing
+- Can work on larger data
+- Easy to interpret the outputs
+
+Cons:
+
+- Need to specify number of centroids a priori
+- Clusters that get created are of inconsistent sizes and densities
+- Affected by noise and outliers
+
 ## Density-Based Clustering
-Density-based clustering methods take density into consideration instead of distances. Clusters are considered as the most dense region in a data space, which is separated by regions of lower object density and it is defined as a maximal-set of connected points. When performing most of the clustering, we take two major assumptions, one, the data is devoid of any noise and two, the shape of the cluster so formed is purely geometrical (circular or elliptical). The fact is, data always has some extent of inconsistency (noise) which cannot be ignored. Added to that, we must not limit ourselves to a fixed attribute shape, it is desirable to have arbitrary shapes so as to not to ignore any data points. These are the areas where density based algorithms have proven their worth! Density-based algorithms can get us clusters with arbitrary shapes, clusters without any limitation in cluster sizes, clusters that contain the maximum level of homogeneity by ensuring the same levels of density within it, and also these clusters are inclusive of outliers or the noisy data.
+In density-based clustering, algorithms form the different clusters based on the data region's density at any given location. Using this approach, arbitrary-shaped distributions are formed in dense areas of the data. These types of algorithms struggle with data of varying densities or data with high dimensionality. The two well-known algorithms of this type are DBSCAN and OPTICS. Such algorithms are used in applications such as contact tracing for infectious diseases.
+
+Usage:
+
+These algorithms can analyze data and make predictions and hence can be used in various applications, such as contact tracing, marketing strategies development. Density-based clustering is also a good choice if your data contains noise or your resulted cluster can be of arbitrary shapes. Moreover, these types of algorithms can deal with dataset outliers more efficiently than the other types of algorithms.
+
+Pros:
+
+- Can handle noise and outliers
+- Need not specify number of clusters a priori
+- Created clusters are highly homogeneous
+- No restrictions on cluster shapes
+
+Cons:
+
+- Complex and slow algorithm
+- Cannot be scaled to larger datasets
 
 ## Distribution-Based Clustering
 Distribution-based clustering creates and groups data points based on their likely hood of belonging to the same probability distribution (Gaussian, Binomial etc.) in the data. The distribution models of clustering are most closely related to statistics as it very closely relates to the way how datasets are generated and arranged using random sampling principles i.e., to fetch data points from one form of distribution. Clusters can then be easily be defined as objects that are most likely to belong to the same distribution. Distribution based clustering has a vivid advantage over the proximity and centroid based clustering methods in terms of flexibility, correctness and shape of the clusters formed. The major problem however is that these clustering methods work well only with synthetic or simulated data or with data where most of the data points most certainly belong to a predefined distribution, if not, the results will overfit.
 
-## Constraint-Based Clustering
-The clustering process, in general, is based on the approach that the data can be divided into an optimal number of “unknown” groups. The underlying stages of all the clustering algorithms to find those hidden patterns and similarities, without any intervention or predefined conditions. However, in certain business scenarios, we might be required to partition the data based on certain constraints. Here is where a supervised version of clustering machine learning techniques come into play. A constraint is defined as the desired properties of the clustering results, or a user’s expectation on the clusters so formed – this can be in terms of a fixed number of clusters, or, the cluster size, or, important dimensions (variables) that are required for the clustering process. Usually, tree-based, Classification machine learning algorithms like Decision Trees, Random Forest, and Gradient Boosting, etc. are made use of to attain constraint-based clustering. A tree is constructed by splitting without the interference of the constraints or clustering labels. Then, the leaf nodes of the tree are combined together to form the clusters while incorporating the constraints and using suitable algorithms.
+Usage:
+
+Distribution-based clustering can be used to mine large datasets and produces complex models for clusters. Doing so reveals the correlation and dependence between the different data points.
+
+Pros:
+
+- Need not specify number of clusters a priori
+- Works on real time data
+- Metrics are easy to understand and tune
+
+Cons:
+
+- Complex and slow algorithm
+- Cannot be scaled to larger datasets
+
+## Constraint-Based Clustering (Semi-Supervised)
+In computer science, constrained clustering is a class of semi-supervised learning algorithms. Typically, constrained clustering incorporates either a set of must-link constraints, cannot-link constraints, or both, with a Data clustering algorithm. Both a must-link and a cannot-link constraint define a relationship between two data instances. A must-link constraint is used to specify that the two instances in the must-link relation should be associated with the same cluster. A cannot-link constraint is used to specify that the two instances in the cannot-link relation should not be associated with the same cluster. These sets of constraints acts as a guide for which a constrained clustering algorithm will attempt to find clusters in a data set which satisfy the specified must-link and cannot-link constraints. Some constrained clustering algorithms will abort if no such clustering exists which satisfies the specified constraints. Others will try to minimize the amount of constraint violation should it be impossible to find a clustering which satisfies the constraints. Constraints could also be used to guide the selection of a clustering model among several possible solutions.
+
+Usage:
+
+Constraint-based clustering is used when you have unlabeled data that needs to be clustered into groups of known characteristics or criteria. Define these criteria and feed them into the model.
+
+Pros:
+
+- Creates a perfect decision boundary
+- Can automatically determine the outcome classes based on cluster constraints
+- Future data can be clustered and classified based on training boundaries
+
+Cons:
+
+- Overfitting likely
+- High level of misclassification errors
+- Cannot be trained on larger datasets
 
 ## Fuzzy Clustering
 The general idea about clustering revolves around assigning data points to mutually exclusive clusters, meaning, a data point always resides uniquely inside a cluster and it cannot belong to more than one cluster. Fuzzy clustering methods change this paradigm by assigning a data-point to multiple clusters with a quantified degree of belongingness metric. The data-points that are in proximity to the center of a cluster, may also belong in the cluster that is at a higher degree than points in the edge of a cluster. The possibility of which an element belongs to a given cluster is measured by membership coefficient that vary from 0 to 1. Fuzzy clustering can be used with datasets where the variables have a high level of overlap.
+
+Usage: 
+
+Fuzzy theory-based algorithms are well suited for application that requires multiple clusters for the same data point. For example, it can be used in marketing to cluster the preferences and shopping patterns of clients more realistically and help create a more personalized shopping experience.
+
+Pros:
+
+- Can work on highly overlapped data
+- A higher rate of convergence
+
+Cons:
+
+- Need to specify number of centroids a priori
+- Affected by noise and outliers
+- Slow algorithm
+- Cannot be scaled
 
 ## References
 
@@ -52,6 +148,8 @@ Maklin, C. (2019) Affinity Propagation Algorithm Explained. Available at: https:
 
 McGregor, M. (2020) 8 Clustering Algorithms in Machine Learning that All Data Scientists Should Know. Available at: https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/ (Accessed: 30 August 2021)
 
+Metwalli, S. (2020) Clustering 101: How to Choose the Right Algorithm for Your Application. Available at: https://towardsdatascience.com/clustering-101-how-to-choose-the-right-algorithm-for-your-application-fb1521ea13fc (Accessed: 30 August 2021)
+
 Prasad, S. (2021) Different Types of Clustering Methods and Applications. Available at: https://www.analytixlabs.co.in/blog/types-of-clustering-algorithms/ (Accessed: 30 August 2021)
 
 Rajan, S. (2020) Overview of Clustering Algorithms. Available at: https://towardsdatascience.com/overview-of-clustering-algorithms-27e979e3724d (Accessed: 30 August 2021)
@@ -67,6 +165,8 @@ Singh, A. (2019) Build Better and Accurate Clusters with Gaussian Mixture Models
 Thompson, J. (2019) Choosing the Right Clustering Algorithm for your Dataset. Available at: https://www.kdnuggets.com/2019/10/right-clustering-algorithm.html (Accessed: 30 August 2021)
 
 Vemula, H. (2019) How Affinity Propagation works. Available at: https://towardsdatascience.com/math-and-intuition-behind-affinity-propagation-4ec5feae5b23 (Accessed: 30 August 2021)
+
+Wikipedia (2021) Constrained Clustering. Available at: https://en.wikipedia.org/wiki/Constrained_clustering (Accessed: 30 August 2021)
 
 Yildirim, S. (2020) DBSCAN Clustering - Explained. Available at: https://towardsdatascience.com/dbscan-clustering-explained-97556a2ad556 (Accessed: 30 August 2021)
 
