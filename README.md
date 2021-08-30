@@ -3,8 +3,8 @@ It involves automatically discovering natural grouping in data. Unlike supervise
 
 The different types of clustering methods can be split into:
 
-- Connectivity-Based (Hierarchical)
-- Centroids-Based (Partitioning)
+- Hierarchical
+- Partitioning
 - Distribution-Based
 - Density-Based (Model-Based)
 - Fuzzy
@@ -43,5 +43,7 @@ McGregor, M. (2020) 8 Clustering Algorithms in Machine Learning that All Data Sc
 Prasad, S. (2021) Different Types of Clustering Methods and Applications. Available at: https://www.analytixlabs.co.in/blog/types-of-clustering-algorithms/ (Accessed: 30 August 2021)
 
 Seif, G. (2018) The 5 Clustering Algorithms Data Scientists Need to Know. Available at: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68 (Accessed: 30 August 2021)
+
+Vemula, H. (2019) How Affinity Propagation works. Available at: https://towardsdatascience.com/math-and-intuition-behind-affinity-propagation-4ec5feae5b23 (Accessed: 30 August 2021)
 
 365 Careers (2021) The Data Science Course 2021: Complete Data Science Bootcamp. Available at: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/ (Accessed: 24 August 2021)
