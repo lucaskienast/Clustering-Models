@@ -28,6 +28,8 @@ The general idea about clustering revolves around assigning data points to mutua
 
 Brownlee, J. (2020) 10 Clustering Algorithms With Python. Available at: https://machinelearningmastery.com/clustering-algorithms-with-python/ (Accessed: 30 August 2021)
 
+Doshi, N. (2019) Spectral Clustering. Available at: https://towardsdatascience.com/spectral-clustering-82d3cff3d3b7 (Accessed: 30 August 2021)
+
 Fleshman, W. (2019) Spectral Clustering. Available at: https://towardsdatascience.com/spectral-clustering-aba2640c0d5b#:~:text=Spectral%20clustering%20is%20a%20technique,non%20graph%20data%20as%20well. (Accessed: 30 August 2021)
 
 Garbade, M. (2018) Understanding K-Means Clustering in Machine Learning. Available at: https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1 (Accessed: 30 August 2021)
